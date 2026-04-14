@@ -1,0 +1,21 @@
+{
+  "task_id": "task_0001",
+  "source_website": "theimageproject",
+  "source_url": "https://www.theimageproject.xyz",
+  "capture_time": "2026-04-08T15:43:47.243Z",
+  "classification": {
+    "interaction_complexity": "medium",
+    "visual_complexity": "medium",
+    "domain": "generic",
+    "sub_domain": "general"
+  },
+  "recording_details": {
+    "resolution": "1920x1080",
+    "browser": "chromium",
+    "recording_duration": "N/A",
+    "environment": "desktop",
+    "output_format": "mp4",
+    "note": "Playwright 原始录屏为 WebM，脚本结束后已使用 ffmpeg 转码为原生 MP4。"
+  },
+  "remarks": ""
+}

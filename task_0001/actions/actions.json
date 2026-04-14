@@ -1,0 +1,61 @@
+[
+  {
+    "step_id": 0,
+    "action_type": "navigate",
+    "parameters": {
+      "url": "https://www.theimageproject.xyz"
+    },
+    "description": "执行 navigate",
+    "checkpoint_path": "checkpoints/step_00.png",
+    "visual_evaluation_flag": true,
+    "logical_assertion": "步骤 0 执行完成"
+  },
+  {
+    "step_id": 1,
+    "action_type": "click",
+    "parameters": {
+      "target_type": "link",
+      "target_name": "#yui_3_17_2_1_1775663034197_250"
+    },
+    "description": "点击 PHOTOS",
+    "checkpoint_path": "checkpoints/step_00.png",
+    "visual_evaluation_flag": true,
+    "logical_assertion": "步骤 1 执行完成"
+  },
+  {
+    "step_id": 2,
+    "action_type": "click",
+    "parameters": {
+      "target_type": "link",
+      "target_name": "#yui_3_17_2_1_1775663042155_1300"
+    },
+    "description": "点击 ABOUT",
+    "checkpoint_path": "checkpoints/step_01.png",
+    "visual_evaluation_flag": true,
+    "logical_assertion": "步骤 2 执行完成"
+  },
+  {
+    "step_id": 3,
+    "action_type": "click",
+    "parameters": {
+      "target_type": "link",
+      "target_name": "#yui_3_17_2_1_1775663046120_213"
+    },
+    "description": "点击 LIGHTROOM",
+    "checkpoint_path": "checkpoints/step_02.png",
+    "visual_evaluation_flag": true,
+    "logical_assertion": "步骤 3 执行完成"
+  },
+  {
+    "step_id": 4,
+    "action_type": "click",
+    "parameters": {
+      "target_type": "link",
+      "target_name": "#yui_3_17_2_1_1775663049802_214"
+    },
+    "description": "点击 CONTACT",
+    "checkpoint_path": "checkpoints/step_03.png",
+    "visual_evaluation_flag": true,
+    "logical_assertion": "步骤 4 执行完成"
+  }
+]

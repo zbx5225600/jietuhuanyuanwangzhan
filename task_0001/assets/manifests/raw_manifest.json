@@ -1,0 +1,1416 @@
+[
+  {
+    "url": "https://assets.squarespace.com/universal/styles-compressed/commerce-0cdd7b80ab19270e-min.en-US.css",
+    "content_type": "text/css",
+    "bucket": "css",
+    "local_path": "assets/css/commerce-0cdd7b80ab19270e-min.en-US.css_7f13833e897f.css",
+    "size": 23666
+  },
+  {
+    "url": "https://static1.squarespace.com/static/sitecss/54c5558fe4b0df35f1642885/96/4fd11f32c4aad9b01c9e624c/54c56b8ee4b0df35f164b21f/1362/site.css?nocustom=true",
+    "content_type": "text/css",
+    "bucket": "css",
+    "local_path": "assets/css/site.css_nocustom_true_0828ea9816a5.css",
+    "size": 519158
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1423249686024-NIBN5BZD7Q26BQ4XG8YS/TIP+logo+Black+left+align.png?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/TIP_logo_Black_left_align.png_format_1000w_987bd810c55a.png",
+    "size": 26168
+  },
+  {
+    "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.spacer/550f69f5-a6e3-45ad-9564-834132fde536_719/website.components.spacer.styles.css",
+    "content_type": "text/css",
+    "bucket": "css",
+    "local_path": "assets/css/website.components.spacer.styles.css_5591a77a445b.css",
+    "size": 107
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/77370d79-0c61-42e5-aace-b7247edbf724/Eigg+promo+website+square+front+cover+stack.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_promo_website_square_front_cover_stack.jpg_format_1500w_ab3c2cc0d55c.jpg",
+    "size": 38026
+  },
+  {
+    "url": "https://use.typekit.net/af/5be242/00000000000000007735e603/31/l?subset_id=2&fvd=n7&v=3",
+    "content_type": "application/font-woff2",
+    "bucket": "fonts",
+    "local_path": "assets/fonts/l_subset_id_2_fvd_n7_v_3_7addcf4b36d0.woff2",
+    "size": 17208
+  },
+  {
+    "url": "https://assets.squarespace.com/universal/styles-compressed/6d80fa01db20c41f-min.en-US.css",
+    "content_type": "text/css",
+    "bucket": "css",
+    "local_path": "assets/css/6d80fa01db20c41f-min.en-US.css_49d999ffbd00.css",
+    "size": 19753
+  },
+  {
+    "url": "https://use.typekit.net/af/26b618/000000000000000077586b59/31/l?subset_id=2&fvd=n4&v=3",
+    "content_type": "application/font-woff2",
+    "bucket": "fonts",
+    "local_path": "assets/fonts/l_subset_id_2_fvd_n4_v_3_cb12b5082504.woff2",
+    "size": 44852
+  },
+  {
+    "url": "https://assets.squarespace.com/universal/styles-compressed/6bc1593a0581d9e7-min.en-US.css",
+    "content_type": "text/css",
+    "bucket": "css",
+    "local_path": "assets/css/6bc1593a0581d9e7-min.en-US.css_21fa492f66bd.css",
+    "size": 7688
+  },
+  {
+    "url": "https://use.typekit.net/af/38ea3a/00000000000000007758cf7d/31/l?subset_id=2&fvd=i7&v=3",
+    "content_type": "application/font-woff2",
+    "bucket": "fonts",
+    "local_path": "assets/fonts/l_subset_id_2_fvd_i7_v_3_0f6efa5ff35d.woff2",
+    "size": 19672
+  },
+  {
+    "url": "https://use.typekit.net/af/361f51/000000000000000077586b60/31/l?subset_id=2&fvd=n7&v=3",
+    "content_type": "application/font-woff2",
+    "bucket": "fonts",
+    "local_path": "assets/fonts/l_subset_id_2_fvd_n7_v_3_5771ce982a83.woff2",
+    "size": 37432
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1662068916383-YX86LX2C0SSWEXAPO3O4/Stone+shelf+Dorset+2022.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Stone_shelf_Dorset_2022.jpg_format_300w_0088371b9105.jpg",
+    "size": 11748
+  },
+  {
+    "url": "https://use.typekit.net/af/3888dc/00000000000000007735e606/31/l?subset_id=2&fvd=n3&v=3",
+    "content_type": "application/font-woff2",
+    "bucket": "fonts",
+    "local_path": "assets/fonts/l_subset_id_2_fvd_n3_v_3_f1eb11124648.woff2",
+    "size": 16768
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1620592547625-VZWUW5Z2FRLSFSLDAKXW/2021+05+02+whistley-109.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2021_05_02_whistley-109.jpg_format_500w_35541c62ae3e.jpg",
+    "size": 82692
+  },
+  {
+    "url": "https://use.typekit.net/af/d7ff92/00000000000000007735e609/31/l?subset_id=2&fvd=n4&v=3",
+    "content_type": "application/font-woff2",
+    "bucket": "fonts",
+    "local_path": "assets/fonts/l_subset_id_2_fvd_n4_v_3_c2d542dbfbfe.woff2",
+    "size": 16884
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1620592902417-S71REUXYVJIZQK1NV3Y6/2019+10+oct+lake+district-54-2.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2019_10_oct_lake_district-54-2.jpg_format_500w_234781b2362d.jpg",
+    "size": 40272
+  },
+  {
+    "url": "https://use.typekit.net/af/82d592/000000000000000077586b5a/31/l?subset_id=2&fvd=i7&v=3",
+    "content_type": "application/font-woff2",
+    "bucket": "fonts",
+    "local_path": "assets/fonts/l_subset_id_2_fvd_i7_v_3_4552bdc56fd2.woff2",
+    "size": 38352
+  },
+  {
+    "url": "https://use.typekit.net/af/6eb0e3/00000000000000007758cf8f/31/l?subset_id=2&fvd=i4&v=3",
+    "content_type": "application/font-woff2",
+    "bucket": "fonts",
+    "local_path": "assets/fonts/l_subset_id_2_fvd_i4_v_3_ec39b75169b4.woff2",
+    "size": 18916
+  },
+  {
+    "url": "https://p.typekit.net/p.gif?s=2&k=646866_54c5558fe4b0df35f1642885&ht=tk&h=www.theimageproject.xyz&f=5474.175.139.176.140.10884.10881.10882&a=646866&js=1.21.0&app=typekit&e=js&_=1775663035969",
+    "content_type": "image/gif",
+    "bucket": "images",
+    "local_path": "assets/images/p.gif_s_2_k_646866_54c5558fe4b0df35f1642885_ht_tk_h_www.theimageproject.xyz_f_5474.175.139.176.140.10884.10881.10882_a_646866_js_1.21.0_app_typekit_e_js___1775663035969_ac21d4876e89.gif",
+    "size": 35
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515260663568-FZYLX8ECJ27TVOEE4L22/2017+03+mar+maldives-962.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_03_mar_maldives-962.jpg_format_300w_ecfab34f3521.jpg",
+    "size": 46452
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515351420392-QBTB1A3O7I11GNXCEXW3/2017+12+dec+banbury+snow-28.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_12_dec_banbury_snow-28.jpg_format_300w_d0b00af9a4e8.jpg",
+    "size": 31370
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1555002084289-58UXE1N2ZXK17PIA72N6/2018+10+oct+lake+district-341-2-2.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2018_10_oct_lake_district-341-2-2.jpg_format_300w_55ddb7f86dda.jpg",
+    "size": 36570
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1518540008128-FPDW6PLLWABGSSKR204O/2016+mar+iceland-245.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2016_mar_iceland-245.jpg_format_300w_d3deae133d10.jpg",
+    "size": 28222
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515351140861-QV9BIHJ3OM2Q56AF0K6L/2015+11+nov+dorset+group+weekend-37.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2015_11_nov_dorset_group_weekend-37.jpg_format_300w_054ef9d75e1f.jpg",
+    "size": 28614
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515260670310-JCCKL93MN0SNB5595NN3/Dorset+coast+2016+durdle+door.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Dorset_coast_2016_durdle_door.jpg_format_300w_21ca48ebaa9e.jpg",
+    "size": 74940
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515352653796-HUHULVBBRNY5JI69WYNS/2017+05+may+19+banbury-56.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_05_may_19_banbury-56.jpg_format_300w_8cd8ccfe51f4.jpg",
+    "size": 32748
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1615150105493-35F36RX811GSVFRK7M0P/2016+mar+iceland-591.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2016_mar_iceland-591.jpg_format_300w_126f881a6f22.jpg",
+    "size": 19790
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693165568946-J8Y9CIM46VVNWMSJOXEP/2017+10+oct+lake+district-637.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_10_oct_lake_district-637.jpg_format_300w_9ad7a3657799.jpg",
+    "size": 28322
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515351146814-LJOYXPE5QYRGH3N5NFKR/2017+11+nov+dorset-382.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_11_nov_dorset-382.jpg_format_300w_0e12770518fa.jpg",
+    "size": 19966
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1555001977075-GDRAQQNI7BM4TW6BGO7V/2018+03+mar+snowdonia+workshop-654-3.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2018_03_mar_snowdonia_workshop-654-3.jpg_format_300w_e37731c444ba.jpg",
+    "size": 44300
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694383076812-7818O9NIJS54WM8VBM7I/2018+05+may+12+hazelborough-47.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2018_05_may_12_hazelborough-47.jpg_format_300w_d1cb22673ca2.jpg",
+    "size": 13538
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515351415565-ZWQ17KADSA3X3YEDKBTP/2017+01+jan+22+snowdonia-50.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_01_jan_22_snowdonia-50.jpg_format_300w_0887aeb4b18c.jpg",
+    "size": 53394
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1662068707150-KSSLWYNBM75GE3EC9AM0/2016+mar+iceland-86-Edit-Edit.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2016_mar_iceland-86-Edit-Edit.jpg_format_300w_95281f1b21d9.jpg",
+    "size": 11748
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694814591186-CF08X1BCOL2GCXA8Z3TT/2016+10+oct+30+hazelborough+wood-59.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2016_10_oct_30_hazelborough_wood-59.jpg_format_300w_18747c343b16.jpg",
+    "size": 31244
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693299718938-2OAAKEZVL46MWTXHT7D1/2017+12+dec+12+banbury-1571.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_12_dec_12_banbury-1571.jpg_format_300w_14efa2847177.jpg",
+    "size": 32196
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1620591886801-1LOT1G18KJSPJMIBRLOY/2016+12+dec+13+banbury+newbottle-7.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2016_12_dec_13_banbury_newbottle-7.jpg_format_300w_0570082279ce.jpg",
+    "size": 34048
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1689625990664-MDJ8M6HR0T9HTULCT4MU/2016+08+aug+20+tysoe-28.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2016_08_aug_20_tysoe-28.jpg_format_300w_74aa2ef03e98.jpg",
+    "size": 15374
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515351145069-UU0GH156228A9SH2Z91I/2017+10+oct+lake+district-2264.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_10_oct_lake_district-2264.jpg_format_300w_9834b35f9d0d.jpg",
+    "size": 50558
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1701984509231-45GC7ICRVU2AQS3BYN70/2016+10+oct+03+banbury+night-29.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2016_10_oct_03_banbury_night-29.jpg_format_300w_a8f7cba38700.jpg",
+    "size": 39448
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515351140584-3HQWENP361WF0YUG7HDJ/2016+mar+iceland-1321.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2016_mar_iceland-1321.jpg_format_300w_290a1e77f525.jpg",
+    "size": 62866
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693299603654-6XV492NSLZOM10ESS9HK/2019+02+feb+14+whistley-63-2.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2019_02_feb_14_whistley-63-2.jpg_format_300w_c9965e0e2021.jpg",
+    "size": 44918
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694388246239-JTNIPDK9W463XQRG6NLC/DSC_3780.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/DSC_3780.jpg_format_300w_94f480883e0d.jpg",
+    "size": 42216
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693165648036-JX9N30ADT9PGMFU04CK8/2017+01+jan+30+bournemouth-64.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_01_jan_30_bournemouth-64.jpg_format_300w_bbcbabfbcb4a.jpg",
+    "size": 13164
+  },
+  {
+    "url": "https://p.typekit.net/p.gif?s=2&k=646866_54c5558fe4b0df35f1642885&ht=tk&h=www.theimageproject.xyz&f=5474.175.139.176.140.10884.10881.10882&a=646866&js=1.21.0&app=typekit&e=js&_=1775663043523",
+    "content_type": "image/gif",
+    "bucket": "images",
+    "local_path": "assets/images/p.gif_s_2_k_646866_54c5558fe4b0df35f1642885_ht_tk_h_www.theimageproject.xyz_f_5474.175.139.176.140.10884.10881.10882_a_646866_js_1.21.0_app_typekit_e_js___1775663043523_ce9b8560ba08.gif",
+    "size": 35
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/e4eb7718-0fec-4a58-9744-87bd719bda28/Eigg+promo+me+and+Luna+beach+selfie.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_promo_me_and_Luna_beach_selfie.jpg_format_1000w_df7c86800c2a.jpg",
+    "size": 70554
+  },
+  {
+    "url": "https://p.typekit.net/p.gif?s=2&k=646866_54c5558fe4b0df35f1642885&ht=tk&h=www.theimageproject.xyz&f=5474.175.139.176.140.10884.10881.10882&a=646866&js=1.21.0&app=typekit&e=js&_=1775663047196",
+    "content_type": "image/gif",
+    "bucket": "images",
+    "local_path": "assets/images/p.gif_s_2_k_646866_54c5558fe4b0df35f1642885_ht_tk_h_www.theimageproject.xyz_f_5474.175.139.176.140.10884.10881.10882_a_646866_js_1.21.0_app_typekit_e_js___1775663047196_ee6e16399942.gif",
+    "size": 35
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515351420392-QBTB1A3O7I11GNXCEXW3/2017+12+dec+banbury+snow-28.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_12_dec_banbury_snow-28.jpg_48efcc0ca0bf.jpg",
+    "size": 331346
+  },
+  {
+    "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.form/1c27e9f3-234c-4dfd-98fa-4a7cb9e860d5_569/website.components.form.styles.css",
+    "content_type": "text/css",
+    "bucket": "css",
+    "local_path": "assets/css/website.components.form.styles.css_f564051b3332.css",
+    "size": 14528
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515353531841-0GUSVGIAG9SA9KRHDTSZ/Lightroom+before+after+2018.png?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Lightroom_before_after_2018.png_format_1500w_33a41f5d2fd9.png",
+    "size": 1105220
+  },
+  {
+    "url": "https://assets.squarespace.com/universal/styles-compressed/c13b9f65d41e8890-min.en-US.css",
+    "content_type": "text/css",
+    "bucket": "css",
+    "local_path": "assets/css/c13b9f65d41e8890-min.en-US.css_cf54eef5d9d4.css",
+    "size": 13769
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515353531841-0GUSVGIAG9SA9KRHDTSZ/Lightroom+before+after+2018.png",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Lightroom_before_after_2018.png_4cb8081909ae.png",
+    "size": 1105220
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515353531841-0GUSVGIAG9SA9KRHDTSZ/Lightroom+before+after+2018.png?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Lightroom_before_after_2018.png_format_100w_72f962ed5c73.png",
+    "size": 13068
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515353531841-0GUSVGIAG9SA9KRHDTSZ/Lightroom+before+after+2018.png?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Lightroom_before_after_2018.png_format_300w_9d26e3ac7343.png",
+    "size": 66768
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515353531841-0GUSVGIAG9SA9KRHDTSZ/Lightroom+before+after+2018.png?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Lightroom_before_after_2018.png_format_500w_ba25b905a97e.png",
+    "size": 160242
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515353531841-0GUSVGIAG9SA9KRHDTSZ/Lightroom+before+after+2018.png?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Lightroom_before_after_2018.png_format_750w_17ee1bddc223.png",
+    "size": 332138
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515353531841-0GUSVGIAG9SA9KRHDTSZ/Lightroom+before+after+2018.png?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Lightroom_before_after_2018.png_format_1000w_4d8107f6d9f3.png",
+    "size": 559974
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515353531841-0GUSVGIAG9SA9KRHDTSZ/Lightroom+before+after+2018.png?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Lightroom_before_after_2018.png_format_2500w_7d20d161b3c4.png",
+    "size": 1105220
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1425321103767-YD4MHDAPI15MSNCP7G63/favicon.ico?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/favicon.ico_format_100w_465051b38754.ico",
+    "size": 5922
+  },
+  {
+    "url": "https://p.typekit.net/p.gif?s=2&k=646866_54c5558fe4b0df35f1642885&ht=tk&h=www.theimageproject.xyz&f=5474.175.139.176.140.10884.10881.10882&a=646866&js=1.21.0&app=typekit&e=js&_=1775663051506",
+    "content_type": "image/gif",
+    "bucket": "images",
+    "local_path": "assets/images/p.gif_s_2_k_646866_54c5558fe4b0df35f1642885_ht_tk_h_www.theimageproject.xyz_f_5474.175.139.176.140.10884.10881.10882_a_646866_js_1.21.0_app_typekit_e_js___1775663051506_825d3960fe64.gif",
+    "size": 35
+  },
+  {
+    "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.spacer/50f25a2f-371c-41f7-9453-ed62df5b95da_720/website.components.spacer.styles.css",
+    "content_type": "text/css",
+    "bucket": "css",
+    "local_path": "assets/css/website.components.spacer.styles.css_64843e777716.css",
+    "size": 107
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1422399245656-252QI2QEPKFH4SW9UON4/Nathan+website+profile+b%26w.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Nathan_website_profile_b_26w.jpg_format_500w_32a3b020122f.jpg",
+    "size": 43694
+  },
+  {
+    "url": "https://p.typekit.net/p.gif?s=2&k=646866_54c5558fe4b0df35f1642885&ht=tk&h=www.theimageproject.xyz&f=5474.175.139.176.140.10884.10881.10882&a=646866&js=1.21.0&app=typekit&e=js&_=1775663056342",
+    "content_type": "image/gif",
+    "bucket": "images",
+    "local_path": "assets/images/p.gif_s_2_k_646866_54c5558fe4b0df35f1642885_ht_tk_h_www.theimageproject.xyz_f_5474.175.139.176.140.10884.10881.10882_a_646866_js_1.21.0_app_typekit_e_js___1775663056342_e8b3697317aa.gif",
+    "size": 35
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1422399245656-252QI2QEPKFH4SW9UON4/Nathan+website+profile+b%26w.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Nathan_website_profile_b_26w.jpg_175603d766d7.jpg",
+    "size": 47352
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1422399245656-252QI2QEPKFH4SW9UON4/Nathan+website+profile+b%26w.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Nathan_website_profile_b_26w.jpg_format_100w_5079bbc4217e.jpg",
+    "size": 27404
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1422399245656-252QI2QEPKFH4SW9UON4/Nathan+website+profile+b%26w.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Nathan_website_profile_b_26w.jpg_format_300w_1da53f948296.jpg",
+    "size": 34220
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1422399245656-252QI2QEPKFH4SW9UON4/Nathan+website+profile+b%26w.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Nathan_website_profile_b_26w.jpg_format_750w_8fd795b3ca1a.jpg",
+    "size": 47352
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1422399245656-252QI2QEPKFH4SW9UON4/Nathan+website+profile+b%26w.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Nathan_website_profile_b_26w.jpg_format_1000w_9b650ca31628.jpg",
+    "size": 47352
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1422399245656-252QI2QEPKFH4SW9UON4/Nathan+website+profile+b%26w.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Nathan_website_profile_b_26w.jpg_format_1500w_7959cffe286c.jpg",
+    "size": 47352
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1422399245656-252QI2QEPKFH4SW9UON4/Nathan+website+profile+b%26w.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Nathan_website_profile_b_26w.jpg_format_2500w_309988045905.jpg",
+    "size": 47352
+  },
+  {
+    "url": "https://assets.squarespace.com/universal/images-v6/damask/cart-16-light.png",
+    "content_type": "image/png",
+    "bucket": "images",
+    "local_path": "assets/images/cart-16-light.png_a41428db465e.png",
+    "size": 3010
+  },
+  {
+    "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.product/96966698-0555-43d0-bb9d-47c26a954d23_791/website.components.product.styles.css",
+    "content_type": "text/css",
+    "bucket": "css",
+    "local_path": "assets/css/website.components.product.styles.css_3695de015229.css",
+    "size": 20784
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906035589-2GIJ8GK599YTRMZ0H577/Eigg+spread+example+2.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_2.jpg_format_1000w_095a48d0aebe.jpg",
+    "size": 31320
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/77370d79-0c61-42e5-aace-b7247edbf724/Eigg+promo+website+square+front+cover+stack.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_promo_website_square_front_cover_stack.jpg_format_750w_5bd81ede3e37.jpg",
+    "size": 19232
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816804413-2KOAIY5KOL8K8BCOTRYA/eigg+thumbnail+for+website+print+1.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_1.jpg_format_300w_f678d8929b8a.jpg",
+    "size": 13648
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816092164-PQIQ78W1IFUPWXL41C19/eigg+thumbnail+for+website+print+3.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_3.jpg_format_300w_4b17a0cdf79e.jpg",
+    "size": 10482
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1550611547848-CEB1T8U8VQ55BZQ9S5LW/2018+10+oct+lake+district-341-Edit.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2018_10_oct_lake_district-341-Edit.jpg_format_300w_f950da72c723.jpg",
+    "size": 37214
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1e6bd6cf-cf73-4c28-b93b-3a0e551ca3da/Eigg+spread+example+1.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_1.jpg_format_1000w_9b13c002c363.jpg",
+    "size": 38604
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906016588-Z8XQGM2JF4M3DWJOHZJN/Z7N_6422.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Z7N_6422.jpg_format_1000w_f5cc39b1f405.jpg",
+    "size": 68740
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1521974109379-XH7UHSCCKQI6BUPRNIOM/2017+11+nov+dorset-382.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_11_nov_dorset-382.jpg_format_100w_c20fbc303ceb.jpg",
+    "size": 10326
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1483730397256-5MTIGY2ZFO2TEENPUYP4/2015+11+nov+dorset+group+weekend-37.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2015_11_nov_dorset_group_weekend-37.jpg_format_100w_aa9775809424.jpg",
+    "size": 13794
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693147635246-5ZPEV57Z121SYWVXNWRX/2022+08+aug+28+dorset-42.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2022_08_aug_28_dorset-42.jpg_format_300w_627a938f8fba.jpg",
+    "size": 11568
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1550611549649-MYY85U36OW0W49WE9NIJ/2018+03+mar+snowdonia+workshop-654-2.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2018_03_mar_snowdonia_workshop-654-2.jpg_format_100w_fdf40717b6e2.jpg",
+    "size": 63774
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1551732528087-TVQUUSIW6PGUBNVKLBPL/2017+05+may+19+banbury-56-2.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_05_may_19_banbury-56-2.jpg_format_100w_12efa6f295e5.jpg",
+    "size": 11206
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1521973816200-LDYLPCP1MVQQ8S5W90Q5/2016+mar+iceland-245.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2016_mar_iceland-245.jpg_format_100w_d0d6db0bc70a.jpg",
+    "size": 10016
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/3525d100-2b24-48d8-9926-da9e1ecc38ec/Outdoor+Photography+book+review+eigg+Aug+2023.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Outdoor_Photography_book_review_eigg_Aug_2023.jpg_format_1000w_cbf54a47ac86.jpg",
+    "size": 140648
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1521974065000-JNP2VYZYQDYWU94AXEX2/2017+03+mar+maldives-962.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_03_mar_maldives-962.jpg_format_300w_95ab2cf4ed24.jpg",
+    "size": 74574
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1550611545404-63SDHEX84FMWFY17629N/2018+03+mar+snowdonia+workshop-11-2.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2018_03_mar_snowdonia_workshop-11-2.jpg_format_100w_191cc7846309.jpg",
+    "size": 49088
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1551732640027-KH3AKQB2OSLRE0I92YTN/2018+02+feb+torridon+lake+district-620.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2018_02_feb_torridon_lake_district-620.jpg_format_300w_9260af9147c0.jpg",
+    "size": 26604
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693147185382-OLHKJQPH2LJJ7LG6Y235/Three+trees+in+rapeseed%2C+Warwickshire.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Three_trees_in_rapeseed_2C_Warwickshire.jpg_format_300w_54390bc8696b.jpg",
+    "size": 23486
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693147621736-JQ579D7K0D0ZGIEJ750O/2017+01+jan+30+bournemouth-22.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_01_jan_30_bournemouth-22.jpg_format_300w_b0296ff8aa58.jpg",
+    "size": 13164
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693147624238-2IU5YDVBPTRIDJWTZYSY/2019+10+oct+lake+district-54-3.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2019_10_oct_lake_district-54-3.jpg_format_300w_17e52792dc94.jpg",
+    "size": 19804
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/bfbe1f9c-e15e-4435-aa36-69f271857fc7/eigg+print+one+wall+mockup+260+mm+65+mm+border.png?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_print_one_wall_mockup_260_mm_65_mm_border.png_format_2500w_b8a5a044b078.png",
+    "size": 222868
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693147627169-2TU3PZ5QT9LQC7UC3WX8/2021+02+feb+06+mist+twyford-69-2.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2021_02_feb_06_mist_twyford-69-2.jpg_format_100w_fd1e638c0339.jpg",
+    "size": 11176
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693147630864-JU2LTB97Q45LTG3GFWQK/2021+05+may+07+bluebells+micheldever-40-2.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2021_05_may_07_bluebells_micheldever-40-2.jpg_format_300w_7b318ec33e24.jpg",
+    "size": 28334
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693147635257-6C9ES5Z0BNMW9UV1OKDA/2022+07+jul+misc-31.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2022_07_jul_misc-31.jpg_format_300w_1b7260ae0926.jpg",
+    "size": 32372
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693147643847-2PHD5KH2QI5GAR8UCC50/2023+01+jan+21+misty+trees-116.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2023_01_jan_21_misty_trees-116.jpg_format_300w_518c119289b7.jpg",
+    "size": 42216
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1693147642103-WX113Q3DNJDH5UVXN4UM/Z7N_6699.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Z7N_6699.jpg_format_300w_1f20a97e2ec7.jpg",
+    "size": 15772
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832747653-W4EFG7XVBXWW91WNZ2C9/mill+art+exhibition+feb+2019+em2-90.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-90.jpg_format_300w_069c54317068.jpg",
+    "size": 21758
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832941553-3QEXN8VH22AXWSVDYCRX/mill+art+exhibition+feb+2019+em2-88.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-88.jpg_format_300w_36655cb7ed44.jpg",
+    "size": 20902
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832775252-4GQVBYBI85745ZU9KDOA/mill+art+exhibition+feb+2019+em2-23.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-23.jpg_format_300w_88793f01e06d.jpg",
+    "size": 27932
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832775252-4GQVBYBI85745ZU9KDOA/mill+art+exhibition+feb+2019+em2-23.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-23.jpg_format_500w_0eff065f7203.jpg",
+    "size": 38976
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832917877-TSUB8VKYDVTQYF77Q6D3/mill+art+exhibition+feb+2019+em2-87.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-87.jpg_format_300w_97b2ef7aecbb.jpg",
+    "size": 29928
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832959286-122D9N06U07X19W5ULHW/mill+art+exhibition+feb+2019+em2-30.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-30.jpg_format_300w_feb297171e60.jpg",
+    "size": 28764
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816067727-FSLI92GF3DXMZ5UWC97O/eigg+thumbnail+for+website+print+2.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_2.jpg_format_300w_792f5f047d73.jpg",
+    "size": 10116
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1550610582577-MLS3F34L39FS5G4Z4PKP/mill+art+exhibition+feb+2019+em2-63.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-63.jpg_format_300w_dff2434696be.jpg",
+    "size": 31486
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1550610813153-TEIYZSZ0IFQI9RDJA2LX/mill+art+exhibition+feb+2019+em2-50-2.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-50-2.jpg_format_300w_8340dced6e1a.jpg",
+    "size": 31976
+  },
+  {
+    "url": "https://p.typekit.net/p.gif?s=2&k=646866_54c5558fe4b0df35f1642885&ht=tk&h=www.theimageproject.xyz&f=5474.175.139.176.140.10884.10881.10882&a=646866&js=1.21.0&app=typekit&e=js&_=1775663061836",
+    "content_type": "image/gif",
+    "bucket": "images",
+    "local_path": "assets/images/p.gif_s_2_k_646866_54c5558fe4b0df35f1642885_ht_tk_h_www.theimageproject.xyz_f_5474.175.139.176.140.10884.10881.10882_a_646866_js_1.21.0_app_typekit_e_js___1775663061836_34de3d545397.gif",
+    "size": 35
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/77370d79-0c61-42e5-aace-b7247edbf724/Eigg+promo+website+square+front+cover+stack.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_promo_website_square_front_cover_stack.jpg_46e182a4b84b.jpg",
+    "size": 98516
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/77370d79-0c61-42e5-aace-b7247edbf724/Eigg+promo+website+square+front+cover+stack.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_promo_website_square_front_cover_stack.jpg_format_100w_e01baf22c05f.jpg",
+    "size": 7562
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/77370d79-0c61-42e5-aace-b7247edbf724/Eigg+promo+website+square+front+cover+stack.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_promo_website_square_front_cover_stack.jpg_format_300w_c3c52c38f16d.jpg",
+    "size": 10626
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/77370d79-0c61-42e5-aace-b7247edbf724/Eigg+promo+website+square+front+cover+stack.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_promo_website_square_front_cover_stack.jpg_format_500w_386308a056a0.jpg",
+    "size": 14414
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/77370d79-0c61-42e5-aace-b7247edbf724/Eigg+promo+website+square+front+cover+stack.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_promo_website_square_front_cover_stack.jpg_format_1000w_098443287ad5.jpg",
+    "size": 24836
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/77370d79-0c61-42e5-aace-b7247edbf724/Eigg+promo+website+square+front+cover+stack.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_promo_website_square_front_cover_stack.jpg_format_2500w_e4cc9ac6e8b0.jpg",
+    "size": 98516
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906035589-2GIJ8GK599YTRMZ0H577/Eigg+spread+example+2.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_2.jpg_8250b6f36180.jpg",
+    "size": 41956
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906035589-2GIJ8GK599YTRMZ0H577/Eigg+spread+example+2.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_2.jpg_format_100w_f5991a57be09.jpg",
+    "size": 7236
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906035589-2GIJ8GK599YTRMZ0H577/Eigg+spread+example+2.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_2.jpg_format_300w_fcf357c7a618.jpg",
+    "size": 9686
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906035589-2GIJ8GK599YTRMZ0H577/Eigg+spread+example+2.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_2.jpg_format_500w_5e2febf47b3a.jpg",
+    "size": 13970
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906035589-2GIJ8GK599YTRMZ0H577/Eigg+spread+example+2.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_2.jpg_format_750w_017c1f1ff638.jpg",
+    "size": 22448
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906035589-2GIJ8GK599YTRMZ0H577/Eigg+spread+example+2.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_2.jpg_format_1500w_a1c3eba27c55.jpg",
+    "size": 41956
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906035589-2GIJ8GK599YTRMZ0H577/Eigg+spread+example+2.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_2.jpg_format_2500w_cc23c0b69c60.jpg",
+    "size": 41956
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1e6bd6cf-cf73-4c28-b93b-3a0e551ca3da/Eigg+spread+example+1.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_1.jpg_2b58dc6e7edd.jpg",
+    "size": 51386
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1e6bd6cf-cf73-4c28-b93b-3a0e551ca3da/Eigg+spread+example+1.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_1.jpg_format_100w_5bff698d8d55.jpg",
+    "size": 7546
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1e6bd6cf-cf73-4c28-b93b-3a0e551ca3da/Eigg+spread+example+1.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_1.jpg_format_300w_e27fbef18392.jpg",
+    "size": 10846
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1e6bd6cf-cf73-4c28-b93b-3a0e551ca3da/Eigg+spread+example+1.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_1.jpg_format_500w_61cef93d495f.jpg",
+    "size": 16628
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1e6bd6cf-cf73-4c28-b93b-3a0e551ca3da/Eigg+spread+example+1.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_1.jpg_format_750w_40d79f94d0a8.jpg",
+    "size": 26804
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1e6bd6cf-cf73-4c28-b93b-3a0e551ca3da/Eigg+spread+example+1.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_1.jpg_format_1500w_ffbdaed220e1.jpg",
+    "size": 51386
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1e6bd6cf-cf73-4c28-b93b-3a0e551ca3da/Eigg+spread+example+1.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Eigg_spread_example_1.jpg_format_2500w_3d6324a041af.jpg",
+    "size": 51386
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906016588-Z8XQGM2JF4M3DWJOHZJN/Z7N_6422.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Z7N_6422.jpg_72e1cd1ef44b.jpg",
+    "size": 94406
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906016588-Z8XQGM2JF4M3DWJOHZJN/Z7N_6422.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Z7N_6422.jpg_format_100w_14caebea6d4f.jpg",
+    "size": 8500
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906016588-Z8XQGM2JF4M3DWJOHZJN/Z7N_6422.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Z7N_6422.jpg_format_300w_5acbd3ee1ae5.jpg",
+    "size": 15554
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906016588-Z8XQGM2JF4M3DWJOHZJN/Z7N_6422.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Z7N_6422.jpg_format_500w_6b595c53290b.jpg",
+    "size": 26524
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906016588-Z8XQGM2JF4M3DWJOHZJN/Z7N_6422.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Z7N_6422.jpg_format_750w_d4378b4100af.jpg",
+    "size": 44616
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906016588-Z8XQGM2JF4M3DWJOHZJN/Z7N_6422.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Z7N_6422.jpg_format_1500w_eacad397a422.jpg",
+    "size": 94406
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1685906016588-Z8XQGM2JF4M3DWJOHZJN/Z7N_6422.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Z7N_6422.jpg_format_2500w_00257c458fce.jpg",
+    "size": 94406
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/3525d100-2b24-48d8-9926-da9e1ecc38ec/Outdoor+Photography+book+review+eigg+Aug+2023.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Outdoor_Photography_book_review_eigg_Aug_2023.jpg_20e37820eca1.jpg",
+    "size": 467682
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/3525d100-2b24-48d8-9926-da9e1ecc38ec/Outdoor+Photography+book+review+eigg+Aug+2023.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Outdoor_Photography_book_review_eigg_Aug_2023.jpg_format_100w_0666364d6440.jpg",
+    "size": 7182
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/3525d100-2b24-48d8-9926-da9e1ecc38ec/Outdoor+Photography+book+review+eigg+Aug+2023.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Outdoor_Photography_book_review_eigg_Aug_2023.jpg_format_300w_d4785e18732e.jpg",
+    "size": 23146
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/3525d100-2b24-48d8-9926-da9e1ecc38ec/Outdoor+Photography+book+review+eigg+Aug+2023.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Outdoor_Photography_book_review_eigg_Aug_2023.jpg_format_500w_1e86955f4086.jpg",
+    "size": 50244
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/3525d100-2b24-48d8-9926-da9e1ecc38ec/Outdoor+Photography+book+review+eigg+Aug+2023.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Outdoor_Photography_book_review_eigg_Aug_2023.jpg_format_750w_07f7d1eccce1.jpg",
+    "size": 91060
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/3525d100-2b24-48d8-9926-da9e1ecc38ec/Outdoor+Photography+book+review+eigg+Aug+2023.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Outdoor_Photography_book_review_eigg_Aug_2023.jpg_format_1500w_7b83fd75bbbb.jpg",
+    "size": 248326
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/3525d100-2b24-48d8-9926-da9e1ecc38ec/Outdoor+Photography+book+review+eigg+Aug+2023.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/Outdoor_Photography_book_review_eigg_Aug_2023.jpg_format_2500w_9ee353a48632.jpg",
+    "size": 467682
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1518540008128-FPDW6PLLWABGSSKR204O/2016+mar+iceland-245.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2016_mar_iceland-245.jpg_e30dc2d86f96.jpg",
+    "size": 456234
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816675751-1OXE1GVJRXLKSRIOPTZU/8003201.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003201.jpg_8eb9c323e455.jpg",
+    "size": 72612
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816675751-1OXE1GVJRXLKSRIOPTZU/8003201.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003201.jpg_format_100w_7629996f4697.jpg",
+    "size": 6180
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816675751-1OXE1GVJRXLKSRIOPTZU/8003201.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003201.jpg_format_300w_0956d4e2b141.jpg",
+    "size": 14824
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816675751-1OXE1GVJRXLKSRIOPTZU/8003201.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003201.jpg_format_500w_7034cf4395f3.jpg",
+    "size": 33348
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816675751-1OXE1GVJRXLKSRIOPTZU/8003201.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003201.jpg_format_750w_bf45275226cf.jpg",
+    "size": 64490
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816675751-1OXE1GVJRXLKSRIOPTZU/8003201.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003201.jpg_format_1000w_0a5a9f9e1a62.jpg",
+    "size": 72612
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816675751-1OXE1GVJRXLKSRIOPTZU/8003201.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003201.jpg_format_1500w_3a68a8eb5dd3.jpg",
+    "size": 72612
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816675751-1OXE1GVJRXLKSRIOPTZU/8003201.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003201.jpg_format_2500w_12c2f1ee840a.jpg",
+    "size": 72612
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816804413-2KOAIY5KOL8K8BCOTRYA/eigg+thumbnail+for+website+print+1.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_1.jpg_10e881d6ebf2.jpg",
+    "size": 32086
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816804413-2KOAIY5KOL8K8BCOTRYA/eigg+thumbnail+for+website+print+1.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_1.jpg_format_100w_c1fd66cd77d4.jpg",
+    "size": 7890
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816804413-2KOAIY5KOL8K8BCOTRYA/eigg+thumbnail+for+website+print+1.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_1.jpg_format_500w_14f1a47a7857.jpg",
+    "size": 23378
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816804413-2KOAIY5KOL8K8BCOTRYA/eigg+thumbnail+for+website+print+1.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_1.jpg_format_750w_a363e8ebc31c.jpg",
+    "size": 32086
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816804413-2KOAIY5KOL8K8BCOTRYA/eigg+thumbnail+for+website+print+1.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_1.jpg_format_1000w_107051257371.jpg",
+    "size": 32086
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816804413-2KOAIY5KOL8K8BCOTRYA/eigg+thumbnail+for+website+print+1.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_1.jpg_format_1500w_43a48719a90b.jpg",
+    "size": 32086
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816804413-2KOAIY5KOL8K8BCOTRYA/eigg+thumbnail+for+website+print+1.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_1.jpg_format_2500w_af7b70fb2cdf.jpg",
+    "size": 32086
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647790710-7A0P8EJVWGFXRMW6MPQH/8003202.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003202.jpg_355ecad8222c.jpg",
+    "size": 71268
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647790710-7A0P8EJVWGFXRMW6MPQH/8003202.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003202.jpg_format_100w_ce9c7453e99d.jpg",
+    "size": 6146
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647790710-7A0P8EJVWGFXRMW6MPQH/8003202.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003202.jpg_format_300w_3f5c6be028ab.jpg",
+    "size": 14582
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647790710-7A0P8EJVWGFXRMW6MPQH/8003202.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003202.jpg_format_500w_040c51a38374.jpg",
+    "size": 32628
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647790710-7A0P8EJVWGFXRMW6MPQH/8003202.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003202.jpg_format_750w_4933bf592e84.jpg",
+    "size": 63264
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647790710-7A0P8EJVWGFXRMW6MPQH/8003202.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003202.jpg_format_1000w_794ce26ddd71.jpg",
+    "size": 71268
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647790710-7A0P8EJVWGFXRMW6MPQH/8003202.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003202.jpg_format_1500w_daeb6b9a07c4.jpg",
+    "size": 71268
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647790710-7A0P8EJVWGFXRMW6MPQH/8003202.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003202.jpg_format_2500w_81bd088edcfb.jpg",
+    "size": 71268
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816067727-FSLI92GF3DXMZ5UWC97O/eigg+thumbnail+for+website+print+2.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_2.jpg_3854cc744009.jpg",
+    "size": 18292
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816067727-FSLI92GF3DXMZ5UWC97O/eigg+thumbnail+for+website+print+2.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_2.jpg_format_100w_392cd8ecd4db.jpg",
+    "size": 7446
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816067727-FSLI92GF3DXMZ5UWC97O/eigg+thumbnail+for+website+print+2.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_2.jpg_format_500w_d13e58ce7829.jpg",
+    "size": 14208
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816067727-FSLI92GF3DXMZ5UWC97O/eigg+thumbnail+for+website+print+2.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_2.jpg_format_750w_d3bffab615a5.jpg",
+    "size": 18292
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816067727-FSLI92GF3DXMZ5UWC97O/eigg+thumbnail+for+website+print+2.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_2.jpg_format_1000w_802d3a3282eb.jpg",
+    "size": 18292
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816067727-FSLI92GF3DXMZ5UWC97O/eigg+thumbnail+for+website+print+2.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_2.jpg_format_1500w_8c98959f8288.jpg",
+    "size": 18292
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816067727-FSLI92GF3DXMZ5UWC97O/eigg+thumbnail+for+website+print+2.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_2.jpg_format_2500w_c815f1012e8a.jpg",
+    "size": 18292
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647809807-BAMMXPV8QIP6PKLNB2WJ/8003205.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003205.jpg_6aa3ea0c6255.jpg",
+    "size": 71048
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647809807-BAMMXPV8QIP6PKLNB2WJ/8003205.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003205.jpg_format_100w_ab475313200f.jpg",
+    "size": 6106
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647809807-BAMMXPV8QIP6PKLNB2WJ/8003205.jpg?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003205.jpg_format_300w_a1e2d6602515.jpg",
+    "size": 14400
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647809807-BAMMXPV8QIP6PKLNB2WJ/8003205.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003205.jpg_format_500w_63dffbfa92e4.jpg",
+    "size": 32518
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1515352653796-HUHULVBBRNY5JI69WYNS/2017+05+may+19+banbury-56.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2017_05_may_19_banbury-56.jpg_ce8e0d8611db.jpg",
+    "size": 334904
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647809807-BAMMXPV8QIP6PKLNB2WJ/8003205.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003205.jpg_format_750w_1a983b7c388c.jpg",
+    "size": 63172
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647809807-BAMMXPV8QIP6PKLNB2WJ/8003205.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003205.jpg_format_1000w_8c0c72bceb88.jpg",
+    "size": 71048
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647809807-BAMMXPV8QIP6PKLNB2WJ/8003205.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003205.jpg_format_1500w_ee5ac05cc031.jpg",
+    "size": 71048
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694647809807-BAMMXPV8QIP6PKLNB2WJ/8003205.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/8003205.jpg_format_2500w_24445e5cf7e9.jpg",
+    "size": 71048
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816092164-PQIQ78W1IFUPWXL41C19/eigg+thumbnail+for+website+print+3.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_3.jpg_405e4bceb758.jpg",
+    "size": 24474
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816092164-PQIQ78W1IFUPWXL41C19/eigg+thumbnail+for+website+print+3.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_3.jpg_format_100w_27408b756dad.jpg",
+    "size": 7350
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816092164-PQIQ78W1IFUPWXL41C19/eigg+thumbnail+for+website+print+3.jpg?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_3.jpg_format_500w_dc4a25e1622a.jpg",
+    "size": 17276
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816092164-PQIQ78W1IFUPWXL41C19/eigg+thumbnail+for+website+print+3.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_3.jpg_format_750w_4a5d78b71920.jpg",
+    "size": 24474
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816092164-PQIQ78W1IFUPWXL41C19/eigg+thumbnail+for+website+print+3.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_3.jpg_format_1000w_d65802cf26a0.jpg",
+    "size": 24474
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816092164-PQIQ78W1IFUPWXL41C19/eigg+thumbnail+for+website+print+3.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_3.jpg_format_1500w_d10c82215a72.jpg",
+    "size": 24474
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1694816092164-PQIQ78W1IFUPWXL41C19/eigg+thumbnail+for+website+print+3.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_thumbnail_for_website_print_3.jpg_format_2500w_1e7f1215236d.jpg",
+    "size": 24474
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/bfbe1f9c-e15e-4435-aa36-69f271857fc7/eigg+print+one+wall+mockup+260+mm+65+mm+border.png",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_print_one_wall_mockup_260_mm_65_mm_border.png_a4ffbc8e7107.png",
+    "size": 222868
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/bfbe1f9c-e15e-4435-aa36-69f271857fc7/eigg+print+one+wall+mockup+260+mm+65+mm+border.png?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_print_one_wall_mockup_260_mm_65_mm_border.png_format_100w_56a0a7413704.png",
+    "size": 12758
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/bfbe1f9c-e15e-4435-aa36-69f271857fc7/eigg+print+one+wall+mockup+260+mm+65+mm+border.png?format=300w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_print_one_wall_mockup_260_mm_65_mm_border.png_format_300w_c5fa5edc68db.png",
+    "size": 46982
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/bfbe1f9c-e15e-4435-aa36-69f271857fc7/eigg+print+one+wall+mockup+260+mm+65+mm+border.png?format=500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_print_one_wall_mockup_260_mm_65_mm_border.png_format_500w_4fda17eb6744.png",
+    "size": 102410
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/bfbe1f9c-e15e-4435-aa36-69f271857fc7/eigg+print+one+wall+mockup+260+mm+65+mm+border.png?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_print_one_wall_mockup_260_mm_65_mm_border.png_format_750w_6f293e691aef.png",
+    "size": 197842
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/bfbe1f9c-e15e-4435-aa36-69f271857fc7/eigg+print+one+wall+mockup+260+mm+65+mm+border.png?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_print_one_wall_mockup_260_mm_65_mm_border.png_format_1000w_0443633c7491.png",
+    "size": 222868
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/bfbe1f9c-e15e-4435-aa36-69f271857fc7/eigg+print+one+wall+mockup+260+mm+65+mm+border.png?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/eigg_print_one_wall_mockup_260_mm_65_mm_border.png_format_1500w_e0448c10d9bb.png",
+    "size": 222868
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832775252-4GQVBYBI85745ZU9KDOA/mill+art+exhibition+feb+2019+em2-23.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-23.jpg_871e805bcfb6.jpg",
+    "size": 141346
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1555001977075-GDRAQQNI7BM4TW6BGO7V/2018+03+mar+snowdonia+workshop-654-3.jpg",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/2018_03_mar_snowdonia_workshop-654-3.jpg_19cfa3e40a57.jpg",
+    "size": 270574
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832775252-4GQVBYBI85745ZU9KDOA/mill+art+exhibition+feb+2019+em2-23.jpg?format=100w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-23.jpg_format_100w_e26c0e9a3c2b.jpg",
+    "size": 19930
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832775252-4GQVBYBI85745ZU9KDOA/mill+art+exhibition+feb+2019+em2-23.jpg?format=750w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-23.jpg_format_750w_49a28a1a3a3a.jpg",
+    "size": 60622
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832775252-4GQVBYBI85745ZU9KDOA/mill+art+exhibition+feb+2019+em2-23.jpg?format=1000w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-23.jpg_format_1000w_95edc475d68b.jpg",
+    "size": 100938
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832775252-4GQVBYBI85745ZU9KDOA/mill+art+exhibition+feb+2019+em2-23.jpg?format=1500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-23.jpg_format_1500w_f7920ef40b6f.jpg",
+    "size": 141346
+  },
+  {
+    "url": "https://images.squarespace-cdn.com/content/v1/54c5558fe4b0df35f1642885/1549832775252-4GQVBYBI85745ZU9KDOA/mill+art+exhibition+feb+2019+em2-23.jpg?format=2500w",
+    "content_type": "image/webp",
+    "bucket": "images",
+    "local_path": "assets/images/mill_art_exhibition_feb_2019_em2-23.jpg_format_2500w_b021828a26e6.jpg",
+    "size": 141346
+  }
+]
