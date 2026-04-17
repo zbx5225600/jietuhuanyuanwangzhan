@@ -1,0 +1,14 @@
+{
+  "provider": "openai",
+  "openai_api_key": "sk-your-api-key-here",
+  "model": "gpt-4-vision-preview",
+  "max_tokens": 4096,
+  "temperature": 0.2,
+  "openai_base_url": "",
+  "qwen_api_key": "",
+  "ernie_api_key": "",
+  "ernie_secret_key": "",
+  "glm_api_key": "",
+  "doubao_api_key": "",
+  "doubao_base_url": ""
+}
