@@ -7,6 +7,7 @@ import base64
 import re
 import shutil
 import traceback
+import os
 from pathlib import Path
 from typing import Dict, List, Tuple
 from fastapi import APIRouter, HTTPException
@@ -24,6 +25,8 @@ class TaskProcessRequest(BaseModel):
     provider: str = "openai"
     secret_key: str = ""
     base_url: str = ""
+    min_visual_similarity: float = 0.90
+    max_restore_attempts: int = 5
 
 
 class TaskProcessResponse(BaseModel):
@@ -192,7 +195,8 @@ async def batch_process_task(request: TaskProcessRequest):
         all_project_files = {}
         
         # 4. 循环生成和验证，直到所有页面都生成完成或达到最大重试次数
-        max_retries = 3
+        min_visual_similarity = max(0.0, min(1.0, request.min_visual_similarity))
+        max_retries = max(1, min(5, request.max_restore_attempts))
         for attempt in range(max_retries):
             print(f"\n{'='*60}")
             print(f"Generation Attempt {attempt + 1}/{max_retries}")
@@ -403,13 +407,31 @@ async def batch_process_task(request: TaskProcessRequest):
                     expected_nav_count=len(page_paths)
                 )
 
+            # Render compare screenshots for this attempt so visual similarity can be evaluated.
+            try:
+                write_project_files(
+                    output_dir,
+                    all_project_files,
+                    output_dir,
+                    url_to_local_path,
+                    step_resources,
+                    page_to_step_index
+                )
+                await generate_compare_screenshots(task_dir, output_dir, screenshot_page_paths)
+            except Exception as render_err:
+                print(f"Warning: compare screenshot generation failed: {render_err}")
+
             # Optional visual fidelity check: only active when compare/gen_step_*.png exists.
             low_visual_fidelity_pages, visual_similarity_scores = evaluate_visual_similarity(
                 task_dir,
-                screenshot_page_names
+                screenshot_page_names,
+                min_similarity_threshold=min_visual_similarity
             )
             if visual_similarity_scores:
+                print(f"   - Visual similarity threshold: {min_visual_similarity:.0%}")
                 print(f"   - Visual similarity scores: {visual_similarity_scores}")
+            else:
+                print("   - Visual similarity check skipped (missing compare/gen_step_*.png)")
             
             all_valid = (
                 not missing_pages and 
@@ -484,6 +506,7 @@ async def batch_process_task(request: TaskProcessRequest):
                     header_route_issues,
                     header_typography_issues,
                     low_visual_fidelity_pages,
+                    min_visual_similarity,
                     all_project_files,
                     num_pages
                 )
@@ -552,6 +575,24 @@ async def batch_process_task(request: TaskProcessRequest):
         
         # 9. 运行编译检查，确保没有语法错误和编译错误
         build_success = await run_build_check(output_dir)
+
+        # Re-render compare screenshots from final output state.
+        try:
+            await generate_compare_screenshots(task_dir, output_dir, screenshot_page_paths)
+        except Exception as render_err:
+            print(f"Warning: final compare screenshot generation failed: {render_err}")
+        
+        # Final fidelity report (per-page + overall)
+        _, final_visual_similarity_scores = evaluate_visual_similarity(
+            task_dir,
+            screenshot_page_names,
+            min_similarity_threshold=min_visual_similarity
+        )
+        print_visual_fidelity_summary(
+            screenshot_page_names,
+            final_visual_similarity_scores,
+            min_visual_similarity
+        )
         
         return TaskProcessResponse(
             success=True,
@@ -905,9 +946,210 @@ def detect_header_typography_issues(content: str, expected_nav_count: int) -> Li
     return list(dict.fromkeys(issues))
 
 
+async def _ensure_output_dependencies_for_preview(output_dir: Path) -> bool:
+    """
+    Ensure frontend deps exist for preview screenshots.
+    """
+    node_modules_dir = output_dir / "node_modules"
+    if node_modules_dir.exists():
+        return True
+
+    import asyncio
+
+    install_variants = [
+        ["corepack", "pnpm", "install"],
+        [r"C:\Program Files\nodejs\corepack.cmd", "pnpm", "install"],
+        ["npm", "install"],
+    ]
+
+    for cmd in install_variants:
+        try:
+            proc = await asyncio.create_subprocess_exec(
+                *cmd,
+                cwd=str(output_dir),
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.PIPE,
+            )
+            out, err = await proc.communicate()
+            if proc.returncode == 0:
+                return True
+            msg = (err or out).decode("utf-8", errors="ignore").strip()
+            if msg:
+                print(f"Preview install failed ({' '.join(cmd)}): {msg[:300]}")
+        except FileNotFoundError:
+            continue
+        except Exception as e:
+            print(f"Preview install exception ({' '.join(cmd)}): {e}")
+    return False
+
+
+def _candidate_browser_paths() -> List[str]:
+    candidates = [
+        r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
+        r"C:\Program Files\Microsoft\Edge\Application\msedge.exe",
+        r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+        r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+    ]
+    return [p for p in candidates if Path(p).exists()]
+
+
+async def generate_compare_screenshots(
+    task_dir: Path,
+    output_dir: Path,
+    screenshot_page_paths: List[str],
+    host: str = "127.0.0.1",
+    port: int = 4173,
+) -> int:
+    """
+    Generate compare/gen_step_XX.png by launching the generated app and
+    taking headless browser screenshots for each screenshot route.
+    """
+    import asyncio
+    import socket
+
+    if not screenshot_page_paths:
+        return 0
+
+    compare_dir = task_dir / "compare"
+    compare_dir.mkdir(exist_ok=True)
+    for old in compare_dir.glob("gen_step_*.png"):
+        try:
+            old.unlink()
+        except Exception:
+            pass
+
+    browser_paths = _candidate_browser_paths()
+    if not browser_paths:
+        print("Compare screenshot skipped: no Edge/Chrome executable found.")
+        return 0
+
+    deps_ok = await _ensure_output_dependencies_for_preview(output_dir)
+    if not deps_ok:
+        print("Compare screenshot skipped: frontend dependencies are unavailable.")
+        return 0
+
+    dev_commands = [
+        [r"C:\Program Files\nodejs\corepack.cmd", "pnpm", "exec", "vite", "--host", host, "--port", str(port)],
+        ["corepack", "pnpm", "exec", "vite", "--host", host, "--port", str(port)],
+        ["npm", "run", "dev", "--", "--host", host, "--port", str(port)],
+    ]
+
+    server_proc = None
+    active_dev_cmd = None
+    for cmd in dev_commands:
+        try:
+            p = await asyncio.create_subprocess_exec(
+                *cmd,
+                cwd=str(output_dir),
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.PIPE,
+            )
+            server_proc = p
+            active_dev_cmd = cmd
+            break
+        except FileNotFoundError:
+            continue
+        except Exception as e:
+            print(f"Failed to start dev server command {' '.join(cmd)}: {e}")
+
+    if server_proc is None:
+        print("Compare screenshot skipped: failed to start dev server.")
+        return 0
+
+    async def wait_port_ready(timeout_sec: float = 40.0) -> bool:
+        loop = asyncio.get_running_loop()
+        deadline = loop.time() + timeout_sec
+        while loop.time() < deadline:
+            if server_proc and server_proc.returncode is not None:
+                return False
+            sock = socket.socket()
+            sock.settimeout(1.0)
+            try:
+                sock.connect((host, port))
+                sock.close()
+                return True
+            except Exception:
+                await asyncio.sleep(0.5)
+            finally:
+                try:
+                    sock.close()
+                except Exception:
+                    pass
+        return False
+
+    try:
+        ready = await wait_port_ready()
+        if not ready:
+            detail = ""
+            if server_proc and server_proc.returncode is not None:
+                try:
+                    out, err = await server_proc.communicate()
+                    text = (err or out).decode("utf-8", errors="ignore").strip()
+                    if text:
+                        detail = f" | {text[:300]}"
+                except Exception:
+                    pass
+            print(f"Compare screenshot skipped: dev server not ready ({' '.join(active_dev_cmd or [])}){detail}.")
+            return 0
+
+        generated = 0
+        browser_args_prefix = [
+            "--headless",
+            "--disable-gpu",
+            "--hide-scrollbars",
+            "--window-size=1920,1080",
+            "--virtual-time-budget=4000",
+        ]
+
+        for idx, route_path in enumerate(screenshot_page_paths):
+            route = route_path if route_path.startswith("/") else f"/{route_path}"
+            url = f"http://{host}:{port}{route}"
+            target = compare_dir / f"gen_step_{idx:02d}.png"
+
+            ok = False
+            for browser in browser_paths:
+                cmd = [browser, *browser_args_prefix, f"--screenshot={str(target)}", url]
+                try:
+                    shot = await asyncio.create_subprocess_exec(
+                        *cmd,
+                        cwd=str(output_dir),
+                        stdout=asyncio.subprocess.PIPE,
+                        stderr=asyncio.subprocess.PIPE,
+                    )
+                    _, _ = await shot.communicate()
+                    if shot.returncode == 0 and target.exists():
+                        ok = True
+                        generated += 1
+                        break
+                except Exception:
+                    continue
+
+            if not ok:
+                print(f"Failed to generate compare screenshot for route: {route}")
+
+        print(f"Generated {generated}/{len(screenshot_page_paths)} compare screenshots.")
+        return generated
+    finally:
+        if server_proc and server_proc.returncode is None:
+            try:
+                server_proc.terminate()
+                await asyncio.wait_for(server_proc.wait(), timeout=8)
+            except Exception:
+                try:
+                    server_proc.kill()
+                except Exception:
+                    pass
+        if server_proc:
+            try:
+                await asyncio.wait_for(server_proc.communicate(), timeout=2)
+            except Exception:
+                pass
+
+
 def evaluate_visual_similarity(
     task_dir: Path,
     screenshot_page_names: List[str],
+    min_similarity_threshold: float = 0.90,
 ) -> Tuple[List[str], Dict[str, float]]:
     """
     Compare generated screenshots under task_dir/compare/gen_step_*.png with
@@ -943,12 +1185,43 @@ def evaluate_visual_similarity(
                 mean_abs = sum(diff.mean) / max(len(diff.mean), 1)
                 similarity = max(0.0, min(1.0, 1.0 - (mean_abs / 255.0)))
                 page_scores[page_name] = similarity
-                if similarity < 0.82:
+                if similarity < min_similarity_threshold:
                     low_pages.append(f"{page_name} ({similarity:.3f})")
         except Exception:
             continue
 
     return low_pages, page_scores
+
+
+def print_visual_fidelity_summary(
+    screenshot_page_names: List[str],
+    page_scores: Dict[str, float],
+    min_similarity_threshold: float,
+) -> None:
+    """
+    Print per-page and overall visual fidelity summary.
+    """
+    print("\n" + "=" * 60)
+    print("Visual Fidelity Summary")
+    print("=" * 60)
+    print(f"Target threshold: {min_similarity_threshold:.0%}")
+
+    available_scores: List[float] = []
+    for page_name in screenshot_page_names:
+        if page_name in page_scores:
+            score = page_scores[page_name]
+            available_scores.append(score)
+            status = "PASS" if score >= min_similarity_threshold else "FAIL"
+            print(f"  - {page_name}: {score:.2%} [{status}]")
+        else:
+            print(f"  - {page_name}: N/A (missing compare image)")
+
+    if available_scores:
+        overall = sum(available_scores) / len(available_scores)
+        status = "PASS" if overall >= min_similarity_threshold else "FAIL"
+        print(f"Overall fidelity: {overall:.2%} [{status}]")
+    else:
+        print("Overall fidelity: N/A (no visual comparison data)")
 
 
 def _inject_missing_page_images(content: str, step_local_images: List[str]) -> str:
@@ -1429,7 +1702,7 @@ def build_vue3_prompt(image_data_url: str):
     )
 
 
-def build_correction_prompt(image_data_urls, page_names, page_paths, missing_pages, missing_core_files, router_valid, app_valid, main_valid, package_valid, missing_dependencies, missing_image_pages, low_image_count_pages, header_style_issues, header_route_issues, header_typography_issues, low_visual_fidelity_pages, existing_files, num_pages):
+def build_correction_prompt(image_data_urls, page_names, page_paths, missing_pages, missing_core_files, router_valid, app_valid, main_valid, package_valid, missing_dependencies, missing_image_pages, low_image_count_pages, header_style_issues, header_route_issues, header_typography_issues, low_visual_fidelity_pages, min_visual_similarity, existing_files, num_pages):
     """构建补齐缺失页面的提示词"""
     
     system_prompt = "You are an expert frontend developer specializing in Vue 3 and Vite.\n\n"
@@ -1460,7 +1733,9 @@ def build_correction_prompt(image_data_urls, page_names, page_paths, missing_pag
     if header_typography_issues:
         issues.append(f"- Header typography/casing/spacing has visual drift: {header_typography_issues}")
     if low_visual_fidelity_pages:
-        issues.append(f"- These pages have low visual similarity to checkpoint screenshots: {low_visual_fidelity_pages}")
+        issues.append(
+            f"- These pages are below visual similarity threshold ({min_visual_similarity:.0%}): {low_visual_fidelity_pages}"
+        )
     
     for issue in issues:
         system_prompt += issue + "\n"
@@ -1562,7 +1837,7 @@ def build_correction_prompt(image_data_urls, page_names, page_paths, missing_pag
     if header_typography_issues:
         user_prompt += "- Fix src/components/Header.vue nav casing/letter-spacing and remove duplicated nav labels\n"
     if low_visual_fidelity_pages:
-        user_prompt += f"- Improve visual fidelity for these pages: {low_visual_fidelity_pages}\n"
+        user_prompt += f"- Improve visual fidelity for these pages to >= {min_visual_similarity:.0%}: {low_visual_fidelity_pages}\n"
     user_prompt += "\nIMPORTANT:\n"
     user_prompt += "- ONLY generate/repair the files listed above\n"
     user_prompt += "- DO NOT regenerate any existing correct files\n"

@@ -31,7 +31,13 @@ def load_config():
     return {}
 
 
-async def process_single_task(task_dir: str, api_key: str, model: str = "gpt-4-vision-preview"):
+async def process_single_task(
+    task_dir: str,
+    api_key: str,
+    model: str = "gpt-4-vision-preview",
+    min_visual_similarity: float = 0.90,
+    max_restore_attempts: int = 5
+):
     """处理单个task"""
     print(f"\n{'='*60}")
     print(f"Processing: {task_dir}")
@@ -40,7 +46,9 @@ async def process_single_task(task_dir: str, api_key: str, model: str = "gpt-4-v
     request = TaskProcessRequest(
         task_dir=task_dir,
         api_key=api_key,
-        model=model
+        model=model,
+        min_visual_similarity=min_visual_similarity,
+        max_restore_attempts=max_restore_attempts
     )
     
     try:
@@ -61,7 +69,13 @@ async def process_single_task(task_dir: str, api_key: str, model: str = "gpt-4-v
         return False
 
 
-async def process_all_tasks(base_dir: str, api_key: str, model: str = "gpt-4-vision-preview"):
+async def process_all_tasks(
+    base_dir: str,
+    api_key: str,
+    model: str = "gpt-4-vision-preview",
+    min_visual_similarity: float = 0.90,
+    max_restore_attempts: int = 5
+):
     """处理所有task目录"""
     base_path = Path(base_dir)
     
@@ -79,7 +93,13 @@ async def process_all_tasks(base_dir: str, api_key: str, model: str = "gpt-4-vis
     
     results = []
     for task_dir in task_dirs:
-        success = await process_single_task(str(task_dir), api_key, model)
+        success = await process_single_task(
+            str(task_dir),
+            api_key,
+            model,
+            min_visual_similarity,
+            max_restore_attempts
+        )
         results.append({
             "task": task_dir.name,
             "success": success
@@ -117,6 +137,8 @@ def main():
     
     # 获取模型配置
     model = config.get("model", "gpt-4-vision-preview")
+    min_visual_similarity = float(config.get("min_visual_similarity", 0.90))
+    max_restore_attempts = int(config.get("max_restore_attempts", 5))
     
     # 获取基础目录
     if len(sys.argv) > 1:
@@ -126,10 +148,20 @@ def main():
     
     print(f"Base directory: {base_dir}")
     print(f"Model: {model}")
+    print(f"Min visual similarity: {min_visual_similarity:.0%}")
+    print(f"Max restore attempts: {max_restore_attempts}")
     print(f"API Key: {api_key[:10]}...")
     
     # 运行处理
-    asyncio.run(process_all_tasks(base_dir, api_key, model))
+    asyncio.run(
+        process_all_tasks(
+            base_dir,
+            api_key,
+            model,
+            min_visual_similarity,
+            max_restore_attempts
+        )
+    )
 
 
 if __name__ == "__main__":

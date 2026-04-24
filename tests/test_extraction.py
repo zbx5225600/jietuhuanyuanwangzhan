@@ -6,7 +6,8 @@ import os
 from pathlib import Path
 
 # 添加backend到path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'screenshot-to-code', 'backend'))
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(PROJECT_ROOT / "screenshot-to-code" / "backend"))
 
 from codegen.vue_extractor import (
     extract_vue_files,
@@ -197,7 +198,7 @@ def test_write_project_files():
     }
     
     # 写入到测试目录
-    test_output = Path("test_output")
+    test_output = PROJECT_ROOT / "test_output"
     test_output.mkdir(exist_ok=True)
     
     print(f"\n📂 写入测试目录: {test_output.absolute()}")

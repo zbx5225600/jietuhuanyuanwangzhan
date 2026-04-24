@@ -3,6 +3,8 @@
   "model": "gpt-4-vision-preview",
   "max_tokens": 4096,
   "temperature": 0.2,
+  "min_visual_similarity": 0.9,
+  "max_restore_attempts": 5,
 
   "openai_api_key": "sk-your-api-key-here",
   "openai_base_url": "",

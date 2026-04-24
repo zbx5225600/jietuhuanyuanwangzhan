@@ -69,6 +69,8 @@ async def main():
     
     # 获取模型配置
     model = config.get("model", "gpt-4-vision-preview")
+    min_visual_similarity = float(config.get("min_visual_similarity", 0.90))
+    max_restore_attempts = int(config.get("max_restore_attempts", 5))
     secret_key = config.get("ernie_secret_key", "")
     if provider == "doubao":
         base_url = config.get("doubao_base_url", "")
@@ -87,6 +89,8 @@ async def main():
     print(f"Task directory: {task_dir}")
     print(f"Provider: {provider}")
     print(f"Model: {model}")
+    print(f"Min visual similarity: {min_visual_similarity:.0%}")
+    print(f"Max restore attempts: {max_restore_attempts}")
     print(f"API Key: {api_key[:10]}...")
     print()
     
@@ -97,7 +101,9 @@ async def main():
         model=model,
         provider=provider,
         secret_key=secret_key,
-        base_url=base_url
+        base_url=base_url,
+        min_visual_similarity=min_visual_similarity,
+        max_restore_attempts=max_restore_attempts
     )
     
     try:

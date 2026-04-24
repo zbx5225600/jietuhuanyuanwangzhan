@@ -8,7 +8,8 @@ import base64
 from pathlib import Path
 
 # 添加backend到path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'screenshot-to-code', 'backend'))
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(PROJECT_ROOT / "screenshot-to-code" / "backend"))
 
 from codegen.vue_extractor import parse_vue_project_structure, extract_vue_files
 from routes.batch_process import (
@@ -23,7 +24,7 @@ async def test_task_0001():
     """测试task_0001的完整流程"""
     
     # 设置路径
-    task_dir = Path("task_0001")
+    task_dir = PROJECT_ROOT / "task_0001"
     
     if not task_dir.exists():
         print(f"❌ Task directory not found: {task_dir}")

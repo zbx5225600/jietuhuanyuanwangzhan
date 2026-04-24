@@ -7,11 +7,12 @@ import sys
 import re
 
 # 添加 backend 到 Python 路径
-backend_path = Path(__file__).parent / "screenshot-to-code" / "backend"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+backend_path = PROJECT_ROOT / "screenshot-to-code" / "backend"
 sys.path.insert(0, str(backend_path))
 
 # 模拟测试我们的修复逻辑
-output_dir = Path(__file__).parent / "task_0001" / "output"
+output_dir = PROJECT_ROOT / "task_0001" / "output"
 
 print("=" * 60)
 print("Testing route path fix logic")
