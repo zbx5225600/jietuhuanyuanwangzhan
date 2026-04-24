@@ -23,8 +23,10 @@ def extract_vue_files(text: str) -> Dict[str, str]:
     for match in matches:
         file_path = match.group(1).strip()
         file_content = match.group(2).strip()
-        # 反转义 HTML 实体：&lt; -> <, &gt; -> >, &amp; -> &
-        file_content = file_content.replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&')
+        # 全面反转义 HTML 实体（先处理双重转义）
+        file_content = file_content.replace('&amp;lt;', '<').replace('&amp;gt;', '>')
+        file_content = file_content.replace('&lt;', '<').replace('&gt;', '>')
+        file_content = file_content.replace('&amp;', '&')
         files[file_path] = file_content
     
     # 如果没有找到file标签,尝试提取单个HTML文件
@@ -147,8 +149,8 @@ export default defineConfig({
     "noEmit": true,
     "jsx": "preserve",
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
@@ -311,8 +313,8 @@ export default defineConfig({
     "noEmit": true,
     "jsx": "preserve",
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],

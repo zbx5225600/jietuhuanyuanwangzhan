@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import py_compile; py_compile.compile\\('screenshot-to-code/backend/routes/batch_process.py', doraise=True\\); print\\('OK'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python3 *)",
+      "Bash(python *)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(/c/Users/赵祥/AppData/Local/Microsoft/WindowsApps/python3.exe -c \"print\\('test'\\)\")",
+      "Bash(where conda *)",
+      "Bash(conda info *)",
+      "mcp__context7__resolve-library-id",
+      "WebSearch",
+      "Bash(pip install *)"
+    ]
+  }
+}
